@@ -5,7 +5,7 @@ This project presents an **unsupervised machine learning approach** for analyzin
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ### 1️ Data Preprocessing
 
@@ -19,7 +19,7 @@ This project presents an **unsupervised machine learning approach** for analyzin
 
 ---
 
-### 2️⃣ Feature Engineering
+### 2️ Feature Engineering
 
 To enhance clustering performance, several domain-specific features are created:
 
@@ -35,7 +35,7 @@ These features capture both **statistical and behavioral characteristics** of ne
 
 ---
 
-### 4️⃣ Feature Scaling & Dimensionality Reduction
+### 3 Feature Scaling & Dimensionality Reduction
 
 * **PowerTransformer (Yeo-Johnson)** is applied to normalize skewed distributions
 * **Min-Max Scaling** ensures uniform feature ranges
@@ -47,7 +47,7 @@ These features capture both **statistical and behavioral characteristics** of ne
 
 ---
 
-### 5️⃣ K-Means Clustering
+### 4 K-Means Clustering
 
 * K-Means is applied to the transformed feature space
 * The number of clusters is chosen based on:
@@ -58,7 +58,7 @@ These features capture both **statistical and behavioral characteristics** of ne
 
 ---
 
-### 6️⃣ Cluster Evaluation
+### 5 Cluster Evaluation
 
 Although clustering is unsupervised, evaluation is performed using known labels for analysis:
 
@@ -70,7 +70,7 @@ This helps assess how well K-Means captures real attack behavior.
 
 ---
 
-### 7️⃣ Visualization
+### 6 Visualization
 
 * Clusters are visualized using **PCA-reduced space**
 * Each cluster is color-coded
@@ -81,7 +81,7 @@ This helps assess how well K-Means captures real attack behavior.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python
 * Pandas, NumPy
